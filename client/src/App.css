@@ -1,0 +1,9 @@
+/* Remove underline from links */
+nav a {
+  text-decoration: none; /* This removes the underline */
+}
+
+/* Optional: Add styling for navigation links (optional) */
+nav a:hover {
+  color: #007bff; /* Change the color when hovered (optional) */
+}
