@@ -19,7 +19,7 @@ const port = 4000;
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect("mongodb://localhost:27017/Mental-Health-Bot");
+mongoose.connect("Mnagodb Url");
 
 app.get("/", (req, res) => {
   res.send("Server is running");
